@@ -24,18 +24,18 @@
 
 main() {
 
-   double n, i; 
-   double s = 1;     
-   double pi = 0;
+  double n, i; 
+  double s = 1;     
+  double pi = 0;
 
-   printf("Enter the number of iterations: ");    
-   scanf("%lf",&n);
+  printf("Enter the number of iterations: ");    
+  scanf("%lf",&n);
 
-   for(i = 1; i <= (n * 2); i += 2){
-     pi = pi + s * (4 / i);
-     s = -s;
-   }
+  for(i = 1; i <= (n * 2); i += 2){
+    pi = pi + s * (4 / i);
+    s = -s;
+  }
 
-   printf("Aproximated value of PI = %1.16lf\n", pi);  
+  printf("Aproximated value of PI = %1.16lf\n", pi);  
 
 }

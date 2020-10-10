@@ -1,3 +1,9 @@
+// Stammering (or stuttering) is a speech disorder when syllables (usually the first one in the words) are unintentionally repeated.
+// Look at the following ahartihifihicihiahal stahammehereher cohodehe (artificial stammerer code)
+
+// Write a function to distinguish vowels from other letters (the function receives a character, and returns whether it is a vovel or not).
+// Modify the program above to use this function in main().
+
 #include <stdio.h>
 #include<ctype.h>
 
